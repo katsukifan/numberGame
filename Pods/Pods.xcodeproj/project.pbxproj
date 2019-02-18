@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03234BAB031012CED1C0AF901226B70D /* MMTextInputDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A186E00A59C9FF1F1B30F02036FBDE /* MMTextInputDelegateProxy.m */; };
+		0C1BE17E6E597A9DC9A68D365CFDD402 /* MMNumberKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44CA92147EDD025F216164ACD1BE7E /* MMNumberKeyboard-dummy.m */; };
+		0C52235A1C5E165D83F5B5F8411E1B98 /* Pods-noGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 812708EE3F51819EB0CC4836E00F8D3E /* Pods-noGame-dummy.m */; };
+		22398AB1A0F8CCF6B21EAE0C2B25A92C /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5E269C5E18EF527BD1B3E71815BCB /* EARestrictedScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		23370CDBBB0661190486A783DA52EE63 /* MMKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CA40215DB2291FB741221447BEDAA2D0 /* MMKeyboardButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		259E2D0399AB07F130A20398DA37E89F /* MMNumberKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = D687990A4CFFEF1CD96D52FAF205B228 /* MMNumberKeyboard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C95FC874BA3C25257545BF6821D757A /* EARestrictedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE492EC9403BC532CCDEF9E71FB0A206 /* EARestrictedScrollView-dummy.m */; };
+		60EE00C2AA5B85AE4313D05B68BD0DB8 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5828D7808F1B43B6B74BEB88A727ED /* EAIntroView.m */; };
+		66C37B3CCCCBCA5874680C8DAB54847D /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2363447A87D979C1C99BE5762CEC2078 /* EAIntroPage.m */; };
+		798B8C0B735728CD62218EE85685E360 /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CAB011A218D22C51509B59D19B41AC /* EAIntroView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86BEB49E9F0A5F5F4A77A8DFF39D891A /* EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271A7C053CB7B148233B793F16C5FD4 /* EAIntroView-dummy.m */; };
+		97CF70867E0784886A28A3051F115A5B /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = B97D53B29272CA23A591029B35926E85 /* EAIntroPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A59066D50A7F1A1371A8561E00070166 /* MMNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5750D4CF411982285E01BE1464104336 /* MMNumberKeyboard.m */; };
+		C796189E1F39B82569C47735668D3DFC /* MMTextInputDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC879F8FAC3C21E0C6706E8670688EB /* MMTextInputDelegateProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1A1F800F68BCFAD1702FDF79FB75D77 /* MMKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C63DD6D05A45D687186D5203E3D65925 /* MMKeyboardButton.m */; };
+		E8F8E71297E020210B3AF916CBB2AB71 /* EARestrictedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E898DB003B01242B258F3ABA54450FE /* EARestrictedScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47541C910CA8FC9712999B57D9147A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F790739D4288200F8F3ED6EC8F86A6C4;
+			remoteInfo = EARestrictedScrollView;
+		};
+		5CB23E0F05B214FC04C19B758FAC111E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE0AAEEEB1921C9732ED4B598AF9DF7;
+			remoteInfo = EAIntroView;
+		};
+		6A683C0F3B3B541521137441808CA98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBA3EF5E8B5E3C0B4E1C770A780D611;
+			remoteInfo = MMNumberKeyboard;
+		};
+		6C524849C78E4ACBB5B58B249DC255AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F790739D4288200F8F3ED6EC8F86A6C4;
+			remoteInfo = EARestrictedScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF02374C97CB562E3DDE78851A888D9 /* Pods-noGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-noGame-resources.sh"; sourceTree = "<group>"; };
+		14AB6096934CA181386F47DADA331FF2 /* Pods-noGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-noGame.debug.xcconfig"; sourceTree = "<group>"; };
+		1E898DB003B01242B258F3ABA54450FE /* EARestrictedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EARestrictedScrollView.h; path = EARestrictedScrollView/EARestrictedScrollView.h; sourceTree = "<group>"; };
+		2363447A87D979C1C99BE5762CEC2078 /* EAIntroPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
+		2A42930F46FB7946F63077F30DFEE1EA /* libMMNumberKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMMNumberKeyboard.a; path = libMMNumberKeyboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D27FB8858B0006054345D7399B959CF /* MMNumberKeyboardDismissKey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDismissKey@3x.png"; path = "Images/MMNumberKeyboardDismissKey@3x.png"; sourceTree = "<group>"; };
+		32C28C4E17DD5CDD3BB85631E0F58153 /* Pods-noGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-noGame.release.xcconfig"; sourceTree = "<group>"; };
+		35891EAC803DFAB48502A7AFED0522C4 /* MMNumberKeyboardDeleteKey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MMNumberKeyboardDeleteKey.png; path = Images/MMNumberKeyboardDeleteKey.png; sourceTree = "<group>"; };
+		37CA1482D1FE62B63B7677906A75D517 /* Pods-noGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-noGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CD1F63A5E7D899C0B42B6A2EA91978D /* Pods-noGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-noGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D2651FC7E758208640D16233445E9F1 /* libEAIntroView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEAIntroView.a; path = libEAIntroView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5750D4CF411982285E01BE1464104336 /* MMNumberKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMNumberKeyboard.m; path = Classes/MMNumberKeyboard.m; sourceTree = "<group>"; };
+		5EDF1F94270C5BC59CE838AD01A7AF77 /* libPods-noGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-noGame.a"; path = "libPods-noGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DCC4B053E85026E6325BC90A004AD8 /* MMNumberKeyboardDeleteKey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDeleteKey@3x.png"; path = "Images/MMNumberKeyboardDeleteKey@3x.png"; sourceTree = "<group>"; };
+		72838637A1EFC715979C0C73320622D9 /* MMNumberKeyboardDismissKey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDismissKey@2x.png"; path = "Images/MMNumberKeyboardDismissKey@2x.png"; sourceTree = "<group>"; };
+		730EA8CB1D21FA8879ACF5A3F9A7C404 /* EAIntroView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAIntroView.xcconfig; sourceTree = "<group>"; };
+		78B6CD9997C421B417E6B5CD2C5F49B9 /* MMNumberKeyboardDismissKey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MMNumberKeyboardDismissKey.png; path = Images/MMNumberKeyboardDismissKey.png; sourceTree = "<group>"; };
+		7C498966668A174293DF3A37B7B42B0B /* MMNumberKeyboardDeleteKey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDeleteKey@2x.png"; path = "Images/MMNumberKeyboardDeleteKey@2x.png"; sourceTree = "<group>"; };
+		812708EE3F51819EB0CC4836E00F8D3E /* Pods-noGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-noGame-dummy.m"; sourceTree = "<group>"; };
+		8F5828D7808F1B43B6B74BEB88A727ED /* EAIntroView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
+		9271A7C053CB7B148233B793F16C5FD4 /* EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		92B5E269C5E18EF527BD1B3E71815BCB /* EARestrictedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EARestrictedScrollView.m; path = EARestrictedScrollView/EARestrictedScrollView.m; sourceTree = "<group>"; };
+		9CE949915E118031BD62B9D91AF74218 /* EARestrictedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA4EAB279483EE553623056E6E72DD0 /* libEARestrictedScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEARestrictedScrollView.a; path = libEARestrictedScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1075F992B64CC139D1308632BCEAB6 /* EAIntroView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-prefix.pch"; sourceTree = "<group>"; };
+		A01D0665364DF036C29918FB2EF9DD24 /* MMNumberKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMNumberKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		AF61C0BDDB510FBDB42BC50CDA89E707 /* EARestrictedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EARestrictedScrollView.xcconfig; sourceTree = "<group>"; };
+		B3C8757A6AB5452A2F721F60F5DE662A /* MMNumberKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMNumberKeyboard.xcconfig; sourceTree = "<group>"; };
+		B97D53B29272CA23A591029B35926E85 /* EAIntroPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
+		C63DD6D05A45D687186D5203E3D65925 /* MMKeyboardButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMKeyboardButton.m; path = Classes/MMKeyboardButton.m; sourceTree = "<group>"; };
+		CA40215DB2291FB741221447BEDAA2D0 /* MMKeyboardButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKeyboardButton.h; path = Classes/MMKeyboardButton.h; sourceTree = "<group>"; };
+		CF44CA92147EDD025F216164ACD1BE7E /* MMNumberKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMNumberKeyboard-dummy.m"; sourceTree = "<group>"; };
+		D687990A4CFFEF1CD96D52FAF205B228 /* MMNumberKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMNumberKeyboard.h; path = Classes/MMNumberKeyboard.h; sourceTree = "<group>"; };
+		DE492EC9403BC532CCDEF9E71FB0A206 /* EARestrictedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EARestrictedScrollView-dummy.m"; sourceTree = "<group>"; };
+		E4A186E00A59C9FF1F1B30F02036FBDE /* MMTextInputDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMTextInputDelegateProxy.m; path = Classes/MMTextInputDelegateProxy.m; sourceTree = "<group>"; };
+		EBC879F8FAC3C21E0C6706E8670688EB /* MMTextInputDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMTextInputDelegateProxy.h; path = Classes/MMTextInputDelegateProxy.h; sourceTree = "<group>"; };
+		F2CAB011A218D22C51509B59D19B41AC /* EAIntroView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16DE9B901627E8C6C7ADADEF01340322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24247D6F84F1B14BC05304E8E9198F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED0A4A93780F160BF2C677241310ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0605CCE7CF8E2879E15D22AA6BEF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABC772D4B740ED3620710016D5FC056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D2651FC7E758208640D16233445E9F1 /* libEAIntroView.a */,
+				9DA4EAB279483EE553623056E6E72DD0 /* libEARestrictedScrollView.a */,
+				2A42930F46FB7946F63077F30DFEE1EA /* libMMNumberKeyboard.a */,
+				5EDF1F94270C5BC59CE838AD01A7AF77 /* libPods-noGame.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D8B8EA62B2AD447B2F1F14B5BB7D299 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8757A6AB5452A2F721F60F5DE662A /* MMNumberKeyboard.xcconfig */,
+				CF44CA92147EDD025F216164ACD1BE7E /* MMNumberKeyboard-dummy.m */,
+				A01D0665364DF036C29918FB2EF9DD24 /* MMNumberKeyboard-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMNumberKeyboard";
+			sourceTree = "<group>";
+		};
+		39570472E537F4268ACB1D86BD78BC33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF61C0BDDB510FBDB42BC50CDA89E707 /* EARestrictedScrollView.xcconfig */,
+				DE492EC9403BC532CCDEF9E71FB0A206 /* EARestrictedScrollView-dummy.m */,
+				9CE949915E118031BD62B9D91AF74218 /* EARestrictedScrollView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EARestrictedScrollView";
+			sourceTree = "<group>";
+		};
+		624D1E7F42A0DA8492A11AE36D940A46 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA2425AB8E1A32865C0D603726EA1D9 /* Pods-noGame */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B1F50587AD15C88AC1FA7ECEB3DFD6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB82A9DC25A46E93FD4697B11E9CFD /* EAIntroView */,
+				898FF854A8255DD152302EE6D18FB913 /* EARestrictedScrollView */,
+				E1C24774419233A08D3124A88732C2AF /* MMNumberKeyboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8405748BED78FE8C9B09372F82B9156E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				730EA8CB1D21FA8879ACF5A3F9A7C404 /* EAIntroView.xcconfig */,
+				9271A7C053CB7B148233B793F16C5FD4 /* EAIntroView-dummy.m */,
+				9F1075F992B64CC139D1308632BCEAB6 /* EAIntroView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EAIntroView";
+			sourceTree = "<group>";
+		};
+		898FF854A8255DD152302EE6D18FB913 /* EARestrictedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1E898DB003B01242B258F3ABA54450FE /* EARestrictedScrollView.h */,
+				92B5E269C5E18EF527BD1B3E71815BCB /* EARestrictedScrollView.m */,
+				39570472E537F4268ACB1D86BD78BC33 /* Support Files */,
+			);
+			name = EARestrictedScrollView;
+			path = EARestrictedScrollView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7B1F50587AD15C88AC1FA7ECEB3DFD6E /* Pods */,
+				1ABC772D4B740ED3620710016D5FC056 /* Products */,
+				624D1E7F42A0DA8492A11AE36D940A46 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D298F9EEA6FC17A159721FA99C925434 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35891EAC803DFAB48502A7AFED0522C4 /* MMNumberKeyboardDeleteKey.png */,
+				7C498966668A174293DF3A37B7B42B0B /* MMNumberKeyboardDeleteKey@2x.png */,
+				60DCC4B053E85026E6325BC90A004AD8 /* MMNumberKeyboardDeleteKey@3x.png */,
+				78B6CD9997C421B417E6B5CD2C5F49B9 /* MMNumberKeyboardDismissKey.png */,
+				72838637A1EFC715979C0C73320622D9 /* MMNumberKeyboardDismissKey@2x.png */,
+				2D27FB8858B0006054345D7399B959CF /* MMNumberKeyboardDismissKey@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C24774419233A08D3124A88732C2AF /* MMNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CA40215DB2291FB741221447BEDAA2D0 /* MMKeyboardButton.h */,
+				C63DD6D05A45D687186D5203E3D65925 /* MMKeyboardButton.m */,
+				D687990A4CFFEF1CD96D52FAF205B228 /* MMNumberKeyboard.h */,
+				5750D4CF411982285E01BE1464104336 /* MMNumberKeyboard.m */,
+				EBC879F8FAC3C21E0C6706E8670688EB /* MMTextInputDelegateProxy.h */,
+				E4A186E00A59C9FF1F1B30F02036FBDE /* MMTextInputDelegateProxy.m */,
+				D298F9EEA6FC17A159721FA99C925434 /* Resources */,
+				2D8B8EA62B2AD447B2F1F14B5BB7D299 /* Support Files */,
+			);
+			name = MMNumberKeyboard;
+			path = MMNumberKeyboard;
+			sourceTree = "<group>";
+		};
+		F5BB82A9DC25A46E93FD4697B11E9CFD /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				B97D53B29272CA23A591029B35926E85 /* EAIntroPage.h */,
+				2363447A87D979C1C99BE5762CEC2078 /* EAIntroPage.m */,
+				F2CAB011A218D22C51509B59D19B41AC /* EAIntroView.h */,
+				8F5828D7808F1B43B6B74BEB88A727ED /* EAIntroView.m */,
+				8405748BED78FE8C9B09372F82B9156E /* Support Files */,
+			);
+			name = EAIntroView;
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		FFA2425AB8E1A32865C0D603726EA1D9 /* Pods-noGame */ = {
+			isa = PBXGroup;
+			children = (
+				4CD1F63A5E7D899C0B42B6A2EA91978D /* Pods-noGame-acknowledgements.markdown */,
+				37CA1482D1FE62B63B7677906A75D517 /* Pods-noGame-acknowledgements.plist */,
+				812708EE3F51819EB0CC4836E00F8D3E /* Pods-noGame-dummy.m */,
+				0CF02374C97CB562E3DDE78851A888D9 /* Pods-noGame-resources.sh */,
+				14AB6096934CA181386F47DADA331FF2 /* Pods-noGame.debug.xcconfig */,
+				32C28C4E17DD5CDD3BB85631E0F58153 /* Pods-noGame.release.xcconfig */,
+			);
+			name = "Pods-noGame";
+			path = "Target Support Files/Pods-noGame";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AEAB8B47CA2EDDCA6EAF9CD9DAE7D94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CF70867E0784886A28A3051F115A5B /* EAIntroPage.h in Headers */,
+				798B8C0B735728CD62218EE85685E360 /* EAIntroView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E421A38EF9815124123DDC6ECC3382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23370CDBBB0661190486A783DA52EE63 /* MMKeyboardButton.h in Headers */,
+				259E2D0399AB07F130A20398DA37E89F /* MMNumberKeyboard.h in Headers */,
+				C796189E1F39B82569C47735668D3DFC /* MMTextInputDelegateProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167F26A8F8C5ED3CAB0CC3E3865D6F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F8E71297E020210B3AF916CBB2AB71 /* EARestrictedScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F209961D45E5918672C3FF9C663EB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FE0AAEEEB1921C9732ED4B598AF9DF7 /* EAIntroView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483E5853347A489EEB553AC301B9D5AF /* Build configuration list for PBXNativeTarget "EAIntroView" */;
+			buildPhases = (
+				3AEAB8B47CA2EDDCA6EAF9CD9DAE7D94 /* Headers */,
+				94B7F7ADCE7C93DA628091B9A1D5A4B0 /* Sources */,
+				6ED0A4A93780F160BF2C677241310ADA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F9BF280682B76AB9936AABBE06CED1 /* PBXTargetDependency */,
+			);
+			name = EAIntroView;
+			productName = EAIntroView;
+			productReference = 4D2651FC7E758208640D16233445E9F1 /* libEAIntroView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2BBA3EF5E8B5E3C0B4E1C770A780D611 /* MMNumberKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED59686702CE23E80F3B67289E935B4 /* Build configuration list for PBXNativeTarget "MMNumberKeyboard" */;
+			buildPhases = (
+				A0E421A38EF9815124123DDC6ECC3382 /* Headers */,
+				801CA83A94C17BC90E3E982FD4FA1D61 /* Sources */,
+				24247D6F84F1B14BC05304E8E9198F27 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMNumberKeyboard;
+			productName = MMNumberKeyboard;
+			productReference = 2A42930F46FB7946F63077F30DFEE1EA /* libMMNumberKeyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C6780F01E63D2A1B4B1A0EA227BC921 /* Pods-noGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CCCC0362C860CB3F07B850E3B81BA3 /* Build configuration list for PBXNativeTarget "Pods-noGame" */;
+			buildPhases = (
+				C8F209961D45E5918672C3FF9C663EB4 /* Headers */,
+				77E292063F19D1B91A8ED3D0D7A4898A /* Sources */,
+				16DE9B901627E8C6C7ADADEF01340322 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFEC808792F91FD99F4E5D498D9D0C2A /* PBXTargetDependency */,
+				EE19C174B76C9C479E080AE087418E65 /* PBXTargetDependency */,
+				FC4B185621173EEBF10EB930888686C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-noGame";
+			productName = "Pods-noGame";
+			productReference = 5EDF1F94270C5BC59CE838AD01A7AF77 /* libPods-noGame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F790739D4288200F8F3ED6EC8F86A6C4 /* EARestrictedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E9F2D92A7D66B61BB51505177B3B3E /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */;
+			buildPhases = (
+				A167F26A8F8C5ED3CAB0CC3E3865D6F3 /* Headers */,
+				9BEB22E882C0A196F8D59EA243668A76 /* Sources */,
+				9C0605CCE7CF8E2879E15D22AA6BEF72 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EARestrictedScrollView;
+			productName = EARestrictedScrollView;
+			productReference = 9DA4EAB279483EE553623056E6E72DD0 /* libEARestrictedScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1ABC772D4B740ED3620710016D5FC056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FE0AAEEEB1921C9732ED4B598AF9DF7 /* EAIntroView */,
+				F790739D4288200F8F3ED6EC8F86A6C4 /* EARestrictedScrollView */,
+				2BBA3EF5E8B5E3C0B4E1C770A780D611 /* MMNumberKeyboard */,
+				8C6780F01E63D2A1B4B1A0EA227BC921 /* Pods-noGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E292063F19D1B91A8ED3D0D7A4898A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C52235A1C5E165D83F5B5F8411E1B98 /* Pods-noGame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801CA83A94C17BC90E3E982FD4FA1D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A1F800F68BCFAD1702FDF79FB75D77 /* MMKeyboardButton.m in Sources */,
+				0C1BE17E6E597A9DC9A68D365CFDD402 /* MMNumberKeyboard-dummy.m in Sources */,
+				A59066D50A7F1A1371A8561E00070166 /* MMNumberKeyboard.m in Sources */,
+				03234BAB031012CED1C0AF901226B70D /* MMTextInputDelegateProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B7F7ADCE7C93DA628091B9A1D5A4B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C37B3CCCCBCA5874680C8DAB54847D /* EAIntroPage.m in Sources */,
+				86BEB49E9F0A5F5F4A77A8DFF39D891A /* EAIntroView-dummy.m in Sources */,
+				60EE00C2AA5B85AE4313D05B68BD0DB8 /* EAIntroView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEB22E882C0A196F8D59EA243668A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C95FC874BA3C25257545BF6821D757A /* EARestrictedScrollView-dummy.m in Sources */,
+				22398AB1A0F8CCF6B21EAE0C2B25A92C /* EARestrictedScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F9BF280682B76AB9936AABBE06CED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = F790739D4288200F8F3ED6EC8F86A6C4 /* EARestrictedScrollView */;
+			targetProxy = 47541C910CA8FC9712999B57D9147A39 /* PBXContainerItemProxy */;
+		};
+		EE19C174B76C9C479E080AE087418E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = F790739D4288200F8F3ED6EC8F86A6C4 /* EARestrictedScrollView */;
+			targetProxy = 6C524849C78E4ACBB5B58B249DC255AD /* PBXContainerItemProxy */;
+		};
+		FC4B185621173EEBF10EB930888686C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMNumberKeyboard;
+			target = 2BBA3EF5E8B5E3C0B4E1C770A780D611 /* MMNumberKeyboard */;
+			targetProxy = 6A683C0F3B3B541521137441808CA98D /* PBXContainerItemProxy */;
+		};
+		FFEC808792F91FD99F4E5D498D9D0C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EAIntroView;
+			target = 1FE0AAEEEB1921C9732ED4B598AF9DF7 /* EAIntroView */;
+			targetProxy = 5CB23E0F05B214FC04C19B758FAC111E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62D1A7A75F1D1BF0B33B9DAD789B7932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6B95BE2ABD5BE4AE4697815E40E21A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14AB6096934CA181386F47DADA331FF2 /* Pods-noGame.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E58639C119E236CF8C549AFA98A6B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C8757A6AB5452A2F721F60F5DE662A /* MMNumberKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MMNumberKeyboard/MMNumberKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MMNumberKeyboard;
+				PRODUCT_NAME = MMNumberKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92828FB701EA3F06A87D854C06754B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C28C4E17DD5CDD3BB85631E0F58153 /* Pods-noGame.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93EAF9F5CD9267287C38FB89C896F29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C8757A6AB5452A2F721F60F5DE662A /* MMNumberKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MMNumberKeyboard/MMNumberKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MMNumberKeyboard;
+				PRODUCT_NAME = MMNumberKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97D72D94E50603E9EBBC34B198F1593F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF61C0BDDB510FBDB42BC50CDA89E707 /* EARestrictedScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EARestrictedScrollView;
+				PRODUCT_NAME = EARestrictedScrollView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B568A81F9C727621C7C5C5689CBEDCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF61C0BDDB510FBDB42BC50CDA89E707 /* EARestrictedScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EARestrictedScrollView;
+				PRODUCT_NAME = EARestrictedScrollView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D418BCB9D402219D02DC27BA96471B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBAA22350719BF37D8E1F4E852C2B9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730EA8CB1D21FA8879ACF5A3F9A7C404 /* EAIntroView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EAIntroView;
+				PRODUCT_NAME = EAIntroView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E81AF46B3D311D5A4D1E11BBEB8D1782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730EA8CB1D21FA8879ACF5A3F9A7C404 /* EAIntroView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EAIntroView;
+				PRODUCT_NAME = EAIntroView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E9F2D92A7D66B61BB51505177B3B3E /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B568A81F9C727621C7C5C5689CBEDCEC /* Debug */,
+				97D72D94E50603E9EBBC34B198F1593F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D418BCB9D402219D02DC27BA96471B50 /* Debug */,
+				62D1A7A75F1D1BF0B33B9DAD789B7932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483E5853347A489EEB553AC301B9D5AF /* Build configuration list for PBXNativeTarget "EAIntroView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81AF46B3D311D5A4D1E11BBEB8D1782 /* Debug */,
+				DBAA22350719BF37D8E1F4E852C2B9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED59686702CE23E80F3B67289E935B4 /* Build configuration list for PBXNativeTarget "MMNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E58639C119E236CF8C549AFA98A6B0B /* Debug */,
+				93EAF9F5CD9267287C38FB89C896F29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CCCC0362C860CB3F07B850E3B81BA3 /* Build configuration list for PBXNativeTarget "Pods-noGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B95BE2ABD5BE4AE4697815E40E21A90 /* Debug */,
+				92828FB701EA3F06A87D854C06754B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

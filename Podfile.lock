@@ -1,0 +1,24 @@
+PODS:
+  - EAIntroView (2.12.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - MMNumberKeyboard (0.2.1)
+
+DEPENDENCIES:
+  - EAIntroView
+  - MMNumberKeyboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EAIntroView
+    - EARestrictedScrollView
+    - MMNumberKeyboard
+
+SPEC CHECKSUMS:
+  EAIntroView: 249559079ddfdbe80e5bcb755c04c3b964b2ac27
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  MMNumberKeyboard: d7bd1646f62e7e0300eafd3e938899526d8d1d38
+
+PODFILE CHECKSUM: 82fc24d1069acf639ecfaff2f202b85d2efc0d20
+
+COCOAPODS: 1.6.0
